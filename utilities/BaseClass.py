@@ -20,5 +20,6 @@ class BaseClass:
         # File location will come from parent loging not the object
         logger.setLevel(logging.DEBUG)
         return logger
+        
 
 
