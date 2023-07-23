@@ -15,6 +15,7 @@ class BaseClass:
         filehandler.setFormatter(formatter)  # Connecting formatting and file handling
         logger.addHandler(
             filehandler)  # There is a other class called file handler we have to pass file handler object to it
+        
         # In above statement logger is asking information about in which file i have to print and what is the format
         # File handler is nothing but the file location
         # File location will come from parent loging not the object
